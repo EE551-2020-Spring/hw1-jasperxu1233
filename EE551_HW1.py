@@ -56,7 +56,7 @@ def lists():
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
     import numpy as np
-    A = np.mtarix("1,4,5;6,10,11;12,17,38")
+    A = np.matrix("1,4,5;6,10,11;12,17,38")
     print(A)
     #or
     import numpy as np
@@ -104,6 +104,7 @@ def dictionaries():
     #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
     #   jobs => ["scientist", "engineer"] (a list)
     #   age => 85
+    p = {}
     p["name"] = {"first_name":"Grace", "last_name":"Hopper"}
     p["jobs"] = ["scientist", "engineer"]
     p["age"] = 85
